@@ -1,4 +1,4 @@
 import streamlit as st
 from PIL import Image
-image = Image.open('sunrise.jpg')
+image = Image.open('nn.jpg')
 st.image(image, caption='Sunrise by the mountains')
